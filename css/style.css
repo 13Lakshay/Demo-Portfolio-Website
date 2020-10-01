@@ -30,9 +30,13 @@ body {
                     /*vh means 55% of the viewport height*/
   padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/
 }
-
+.intro h1{
+  font-size: 2.5rem;
+}
 .intro p {
   color: green;
+  margin: 20px;
+  font-size: 1.3rem;
 }
 
 nav ul {
@@ -46,9 +50,8 @@ nav ul {
 nav ul li {
   display: inline-block;/*display property specifies the display behavior (the type of rendering box) of an element.*/
                         /*inline-block allows to set a width and height on the element and the top and bottom margins/paddings are respected*/
-  margin: 55px;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  line-height: 40px;
+  margin: 5px 50px;
   
 }
 
